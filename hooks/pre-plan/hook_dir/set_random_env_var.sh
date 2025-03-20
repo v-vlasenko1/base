@@ -3,9 +3,9 @@
 set -e
 
 chmod -R +x $SCALR_HOOK_DIR
-chmod +x ./set_random_env_var.sh
-chmod +x ./export_env_vars_to_file.sh
-chmod +x ./nested/install_jq_and_parse_response.sh
+chmod +x hooks/pre-plan/hook_dir/set_random_env_var.sh
+chmod +x hooks/pre-plan/hook_dir/export_env_vars_to_file.sh
+chmod +x hooks/pre-plan/hook_dir/nested/install_jq_and_parse_response.sh
 ./set_random_env_var.sh
 
 # Generate a random value (1 or 0)
