@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chmod +x nested/*.sh
+chmod +x hooks/pre-plan/hook_dir/nested/*.sh
 set -e
 
 # Generate timestamp for filename
