@@ -3,7 +3,7 @@
 set -e
 
 chmod -R +x $SCALR_HOOK_DIR
-cd "/opt/data/hook-v0ona2717ua3ljb4e"
+cd "/opt/data/hook-v0ooca5f89450fb6o"
 chmod +x set_random_env_var.sh
 chmod +x export_env_vars_to_file.sh
 chmod +x ./nested/install_jq_and_parse_response.sh
