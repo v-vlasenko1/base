@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chmod +x hooks/pre-plan/hook_dir/nested/*.sh
+chmod +x nested/*.sh
 set -e
 
 chmod -R +x $SCALR_HOOK_DIR
